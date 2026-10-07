@@ -7,14 +7,17 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <header class="hero">
+  <div class="hero-noise"></div>
+  <p class="opened">OPENED — 2026</p>
   <div class="scribble">Yuta Ine</div>
   <p class="subtitle">勇汰の別に危なくないコラム</p>
   <p class="lead">ギター、パンク、日常。<br>別に危なくない範囲で、好きなことを書いています。</p>
 </header>
 
 <nav>
-  <a href="index.html">HOME</a>
+  <a href="index.html" class="active">HOME</a>
   <a href="column.html">COLUMN</a>
   <a href="guitars.html">GUITARS</a>
   <a href="photo.html">PHOTO</a>
@@ -22,20 +25,99 @@
 </nav>
 
 <main>
-  <section class="intro">
-    <p class="eyebrow">WELCOME</p>
+
+  <section class="welcome">
+    <div class="section-mark">WELCOME</div>
     <h1>ようこそ、勇汰のサイトへ。</h1>
-    <p>音楽のこと、ギターのこと、日々思ったこと。<br>ここに少しずつ残していきます。</p>
+    <p>
+      音楽のこと、ギターのこと、日々思ったこと。<br>
+      ここに少しずつ残していきます。
+    </p>
+    <p class="welcome-note">別に危なくない。たぶん。</p>
   </section>
 
-  <section class="cards">
-    <a class="card" href="column.html"><span>01</span><h2>COLUMN</h2><p>パンク、音楽、日常についてのコラム。</p></a>
-    <a class="card" href="guitars.html"><span>02</span><h2>GUITARS</h2><p>honeyと初号機、俺の相棒たち。</p></a>
-    <a class="card" href="photo.html"><span>03</span><h2>PHOTO</h2><p>写真で残しておきたい瞬間。</p></a>
-    <a class="card" href="profile.html"><span>04</span><h2>PROFILE</h2><p>Yuta Ineについて。</p></a>
+  <section class="latest">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">LATEST COLUMN</p>
+        <h2>最近書いたこと。</h2>
+      </div>
+      <a class="text-link" href="column.html">COLUMN →</a>
+    </div>
+
+    <a class="feature-card" href="column.html">
+      <div class="feature-number">#001</div>
+      <div class="feature-copy">
+        <p class="feature-label">COLUMN</p>
+        <h3>俺がパンクロックを好きになった理由</h3>
+        <p>
+          ギター、疾走感、ロックンロール。そして、パンクが持つ反骨精神。
+          俺がパンクロックにハマった理由を書いてみました。
+        </p>
+        <span>READ ARTICLE →</span>
+      </div>
+    </a>
   </section>
+
+  <section class="home-grid">
+    <a class="home-card home-card-large" href="guitars.html">
+      <p class="eyebrow">MY PARTNER</p>
+      <h2>honey</h2>
+      <p class="card-lead">俺の一番大切なギター。</p>
+      <p class="card-text">
+        GrassRootsのLes Paulタイプ。<br>
+        重い。太い。ゴリゴリ。<br>
+        そして、見た目が強い。
+      </p>
+      <span class="card-arrow">GUITARS →</span>
+    </a>
+
+    <a class="home-card" href="photo.html">
+      <p class="eyebrow">MOMENTS</p>
+      <h2>PHOTO</h2>
+      <p class="card-text">
+        ギター、音楽、ライブ、日常。<br>
+        写真で残しておきたい瞬間を。
+      </p>
+      <span class="card-arrow">PHOTOS →</span>
+    </a>
+
+    <a class="home-card" href="profile.html">
+      <p class="eyebrow">WHO IS YUTA?</p>
+      <h2>PROFILE</h2>
+      <p class="card-text">
+        パンクロックが好きで、<br>
+        ギターを弾いている人です。
+      </p>
+      <span class="card-arrow">PROFILE →</span>
+    </a>
+  </section>
+
+  <section class="manifesto">
+    <p class="eyebrow">ONE THING</p>
+    <blockquote>
+      「自分が本当にやりたい音楽をやってみたい。」
+    </blockquote>
+    <p>
+      いつか自分でバンドを組んで、自分たちの音を鳴らしたい。<br>
+      そんなことを考えながら、今日もギターを弾いています。
+    </p>
+  </section>
+
+  <section class="home-links">
+    <a href="column.html"><span>01</span> COLUMN</a>
+    <a href="guitars.html"><span>02</span> GUITARS</a>
+    <a href="photo.html"><span>03</span> PHOTO</a>
+    <a href="profile.html"><span>04</span> PROFILE</a>
+  </section>
+
 </main>
 
-<footer>© Yuta Ine — STAY GOLD.</footer>
+<footer>
+  <p>YUTA INE</p>
+  <strong>STAY GOLD.</strong>
+  <small>© 2026 Yuta Ine</small>
+</footer>
+
 </body>
 </html>
